@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapsiriq 1</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Ozunuz haqqinda melumatlari qeyd edin</legend>
+            <label for="name">Ad</label><br>
+            <input type="text" name="name" id="name" placeholder="Name" required><br><br>
+            <label for="Name">Soyad</label><br>
+            <input type="text" surname="Surname" id="Name" placeholder="Surname" required><br><br>
+            <label for="yas">Yas</label><br>
+            <input type="text" name="yas" id="yas" placeholder="Age" required><br><br>
+            <label type="text" for="brauzer">Hansi brauzerden istifade edirsiniz?</label><br>
+            <input type="text" id="brauzer" list="browser" required>
+            <datalist id="browser">
+                <option value="Google Chrome">Google Chrome</option>
+                <option value="Mozilla Firefox">Mozilla Firefox</option>
+                <option value="Opera">Opera</option>
+                <option value="Safari">Safari</option>
+            </datalist><br><br>
+            <label type="text" for="seher">Yasadiginiz seher?</label><br>
+            <select id="seher">
+                <optgroup label="Seher">
+                <option value="1">Baki</option>
+                <option value="2">Minqecevir</option>
+                <option value="3">Quba</option>
+                <optgroup label="Rayon">
+                <option value="1">Qusar</option>
+                <option value="2">Xacmaz</option>
+                <option value="3">Abseron</option>
+                </optgroup>
+            </optgroup>
+            <optgroup label="Kend">
+                <option value="1">Piral</option>
+                <option value="2">Dinci</option>
+                <option value="3">Imamqulu</option>
+            </optgroup>
+            </select><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Email" required><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="password" minlength="5" maxlength="10" required><Br><br>
+                <label type="text">Date</label><br>
+                <input type="date" required><br><br>
+                <label typr="text">Siz hansi proqramlasdirma kurslarina yazilmaq isteyirsiniz?</label><br><br>
+                <input type="checkbox" id="html"><label for="html">HTML</label>
+                <input type="checkbox" id="css"><label for="css">Css</label>
+                <input type="checkbox" id="java"><label for=java>Javascript</label>
+                <input type="checkbox" id="python"><label for="python">Python</label><br><br>
+                <label type="text">Herbi xidmetde olmusunuz?</label><br><br>
+                <input type="radio" name="hhx" value="beli" id="evet"><label for="evet">Beli</label>
+                <input type="radio" name="hhx" value="xeyir" id="hayir"><label for=hayir>Xeyir</label><br><br>
+                <label type="text">Sevdiyiniz reng?</label><br>
+                <input type="color"><br><br>
+                <label type="text" for="foto">3X4 Foto elave edin:</label><br>
+                <input type="file" id="foto" multiple><br><br>
+                <button type="submit">Melumati Gonder</button>
+                <button type="reset">Melumati sil</button>
+        </fieldset>
+    </form>
+</body>
+</html>

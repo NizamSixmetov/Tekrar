@@ -1,0 +1,19 @@
+body{
+    font-family:sans-serif;
+}
+body{
+    font-weight: 500;
+}
+h1{
+    color:red;
+}
+h2{
+    color:blue;
+}
+.contactus{
+    font-weight: 900;
+}
+button{
+    color:white;
+    background-color: blue;
+}

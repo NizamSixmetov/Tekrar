@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* a{
+    text-decoration: none;
+} */
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    display:inline;
+    opacity: 0.6;
+}
+li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    /* text-align: justify; */
+    /* text-indent: 70px;
+    abzas verir */
+
+    /* letter-spacing: 1px;
+    herfler arasinda mesafeni coxaldir. -1 de yazmaq olar */
+
+    /* word-spacing: 7px;
+    sozler arasi mesafe */
+
+    /* line-height: 1;
+    normalda 1 olur.  Amma faizlede yaza bilerik. 100% 150% ve s. */
+
+    /* text-align-last: right;
+    sirf blok elementlerde istifade olunur
+    display: block; yazandan sonram inline elementlerede istifade oluna bilir */
+
+    /* text-shadow: 2px 2px red;
+    birinci sol-sag. sonram yuxari asaqi. menfinende yazmaq olar */
+
+    /* text-shadow: 2px 2px 5px red;
+    ortada yazdiqimiz 5px keskinliyi qoturur. */
+
+    text-shadow: 2px 2px 5px red,
+    3px -3px 5px blue;
+    /* vergul qoyub ustune birde qoy reng elave etmek olar.
+    istesen 100dene elave etmek olar. */
+}
+.decorated{
+    /* text-decoration: underline;
+    altdan xet */
+
+    /* text-decoration: line-through;
+    sozun ustunden xet */
+
+    /* text-decoration: overline;
+    ustden xett */
+
+    /* text-decoration: underline line-through overline;
+    ust alt ortadan xett */
+
+    font-size: 24px;
+
+    /* text-decoration-color: red;
+    text-decoration-line: underline;
+    altdan qirmizi xet */
+
+    /* text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-thickness: 7px;
+    altdan qirmizi qalin xet */
+
+    /* text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-thickness: 7px;
+    text-decoration-style: dashed; (wavy)
+    altdan qirmizi qalin qiriq-qiriq xet */
+
+    /* text-transform: uppercase;
+    butun herfler boyuknen */
+
+    /* text-transform: lowercase;
+    butun herfler balaca ile */
+
+    /* text-transform: capitalize;
+    her sozun birinci herfi boyu herif ile yazir */
+
+    /* text-indent: 20px;
+    text-align: ; verdimize qore islemiyecek ona qorede h1 re verdik */
+}
+div{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    /* overflow:hidden;
+    text-in dasan hissesini baglayir. */
+
+    /* overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden; nen eyni seydi. 
+    y-yuxardan asaqi dasmani baglayir
+    x-soldan sagdan dasmani baglayir */
+
+    overflow: scroll;
+    /* polzunok qoyur text-e. */
+
+    /* overflow: auto;
+    ozu avtomatic eleyir her weyi */
+
+}

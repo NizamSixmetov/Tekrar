@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+/*p{
+    color:red;
+}*/
+.important{
+    color:blue;
+}
+.optional{
+    background-color: yellow;
+}
+.test{
+    color: green;
+    background-color: black;
+}
+.test2{
+    color: white;
+    background-color: purple;
+}
+div p{
+    color:brown;
+}
+div .heading{
+    color:orange;
+}
+.heading, p{
+    color:purple;
+}
+
+
+#h4{
+    background-color: darkcyan;
+}
+p{
+    font-size: 20 px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+}
+    .fortest{
+    font-style: oblique;
+    color: yellow   ;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Tapsiriq 1 */
+h1{
+    font-size: 24px;
+}
+h1,h2{
+    color:darkgrey;
+}
+.adi-metin{
+    font-style: italic;
+}
+ul li{
+    color:blue;
+}
+/* Tapsiriq 1 */
+h1,p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1 .ibm{
+    color:#3333ee;
+}
+p .ibm{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

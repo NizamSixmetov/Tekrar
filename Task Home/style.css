@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+.timer-wrapper {
+    display: grid;
+    gap: 0.8em;
+    place-items: center;
+    align-items: center;
+    color: lightslategray;
+    font-size: 1rem;
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 100%;
+    border: 5px solid lightblue;
+}
+.timer-wrapper #timer {
+    color: #000;
+    font-size: 1.5rem;
+}
+.controls button#startBtn {
+    background: rgba(0, 255, 0, 20%);
+    color: green;
+}
+.controls button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+}
+.controls button#resetBtn {
+    background: rgba(0, 0, 0, 20%);
+    color: black;
+}
+.controls button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+}
+.item {
+    display: grid;
+    align-content: center;
+    place-items: center;
+    gap: 2rem;
+    width: 90vw;
+    height: 90vh;
+    background: #efefef;
+    border-radius: 20px;
+}

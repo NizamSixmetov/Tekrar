@@ -1,0 +1,76 @@
+/* Margin normalda her terefe 8px verir. 
+Amma onuda sifir etmek ucun bunnan istifade olunur. */
+*{
+    margin:0;
+}
+.p1{
+    color:red;
+    width: 500px;
+    height: 100px;
+    margin: 30px auto;
+}
+
+.p2{
+    background-color: blue;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    color:red;
+    width: 500px;
+    height: 100px;
+
+    /* yuxaridan asaqidan 30px, ve tam ortada */
+    margin: 30px auto;
+
+
+    /* Elementi avtomatik qetirir sehenin merkesine
+    margin: auto; */
+
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px; */
+
+    /* qisaldilmis margin(saat eqrebi ile)
+    margin: 100px 0 50px 100px; */
+
+    /* yuxaridan,soldan-sagdan,asaqidan
+    margin: 10px 20px 30px; */
+
+    /* asaqi-yuxari=10px sol-sag=20px
+    margin: 10px 20px; */
+}
+strong{
+    width: 500px;
+    height: 100px;
+}
+div{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin-top: 50px;
+}
+/* span{
+    color:black;
+    background-color: aqua;
+} */

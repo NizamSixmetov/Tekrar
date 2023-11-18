@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+</head>
+<body>
+    <!--Form yaradilmasi-->
+    <form>
+        <fieldset>
+            <legend>Sexsi melumat</legend>
+            <label for="name">Adinizi daxil edin:</label>
+            <input type="text" name="name" id="name" placeholder="Adiniz"><br><br>
+            <label for="email">Emailinizi daxil edin:</label>
+            <input type="email" placeholder="Email unvani"><br><br>
+            <label>Sifre daxil edin:</label>
+            <input type="password" maxlength="10" placeholder="Sifreniz"><br><br>
+            <input type="date"><br><br>
+            <input type="datetime-local"><br><br>
+            <input type="time"><br><br>
+    <!--Duyme yaradilmasi-->        
+            <button type="submit">Duyme 3   </button>
+            <br><br><br>
+            <button type="button">Duyme 2</button>
+            <input type="reset">
+            <input type="week">
+            <input type="month">
+            <input type="number" min="1" max="100">
+            <br><br><br>
+            <input type="radio" name="education" id="1"><label for="ali">Ali tehsil</label>
+            <input type="radio" name="education" id="2">Natamam tehsil
+            <br><br><br>
+            <input type="checkbox">Javascript<br>
+            <input type="checkbox">HTML<br>
+            <input type="checkbox">Css<br>
+            <input type="checkbox">React<br><br>
+            <input type="file"><br><br>
+            <input type="file" multiple>
+            <input type="range" min="1" max="100" value="50">
+            <input type="color">
+            <input type="search">
+            <br><br><br>
+            <select>
+                <option value="1">Baki</option>
+                <option value="2">Minqecevir</option>
+                <option value="3">Sumqayit</option list="browser">
+                <option value="4">Quba</option>
+            </Select><br><br><br>
+            <Select>
+                <optgroup label="German">
+                    <option value="1">Mercedes</option>
+                    <option value="2">BMW</option>
+                </optgroup>
+                <optgroup label="Japan">
+                    <option value="3">Nissan</option>
+                    <option value="4">Honda</option>
+                </optgroup>
+            </Select>
+            <br><br><br>
+            <textarea rows="20" placeholder="Sizin metin"></textarea>
+            <textarea cols="20" placeholder="Buda sizin metin"></textarea>
+            <br><br><br>
+            <input type="text" list="browser">
+            <datalist id="browser">
+                <option value="1">Google Chrome</option>
+                <option value="2">Mozilla Firefox</option>
+                <option value="3">Opera</option>
+                <option value="4">Safari</option>
+            </datalist>
+            <br><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Tercume</legend>
+            <input type="text" placeholder="Test">
+        </fieldset>
+    </form>
+</body>
+</html>
